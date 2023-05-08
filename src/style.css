@@ -84,7 +84,14 @@ i.edit {
   transition: visibility 5s;
 }
 
-.description-input:focus, 
+.task-description {
+  width: 75%;
+  height: 40px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.description-input:focus,
 .task-description:focus {
   outline: none;
 }
@@ -108,13 +115,6 @@ i.edit {
   padding-left: 2%;
   gap: 0.5rem;
   width: 95%;
-}
-
-.task-description {
-  width: 75%;
-  height: 40px;
-  margin: 0;
-  padding: 10px 0;
 }
 
 .check-box:hover {
